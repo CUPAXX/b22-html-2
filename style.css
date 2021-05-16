@@ -1,0 +1,91 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(46,110,0);
+    background: linear-gradient(0deg, rgba(46,110,0,1) 0%, rgba(56,122,0,1) 50%, rgba(48,106,0,1) 100%);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(205, 255, 68);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .section1 {
+    margin-left: 20px;
+    width: 790px;
+  }
+
+  .tagline>a, .tagline_read>a {
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: rgb(115, 173, 7);
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+
+  .tagline a:nth-child(odd) {
+    margin-left: 5px;
+  }
+
+  .gambar {
+    margin-top: 25px;
+    width: 790px;
+    line-height: 1.8;
+  }
+
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .gambar>a {
+    margin-top: -5px;
+    float: right;
+    font-size: 13px;
+    color: rgb(206, 0, 0);
+  }
+
+  .section_read {
+    text-align: center;
+  }
+
+  .gambar_read>img {
+    float: none;
+    margin-top: 20px;
+  }
+
+  .gambar_read p {
+    text-align: justify;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 580px;
+  }
+
+  .gambar_read h4 {
+    color: rgb(207, 207, 207);
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: lighter;
+  }
